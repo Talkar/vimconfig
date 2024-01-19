@@ -57,5 +57,5 @@ nnoremap <leader>rt :vsc TestExplorer.RunSelectedTests<CR>
 nnoremap <leader>ra :vsc TestExplorer.RunAllTests<CR>
 
 " Reload configuration
-nnoremap <leader>rc :so $HOMEPATH/vimrc<enter>
+nnoremap <leader>rc :so $HOMEPATH/.vimrc<enter>
 
