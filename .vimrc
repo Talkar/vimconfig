@@ -48,6 +48,8 @@ vnoremap <leader>p "+p
 
 " Select entire contents of file
 nnoremap <c-a> ggvG
+
+" Replace word in file
 nnoremap <leader>s :%s/<C-r><C-w>/<C-r><C-w>/gI<left><left><left>
 
 " Visual studio
