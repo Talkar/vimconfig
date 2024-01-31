@@ -29,14 +29,19 @@ nnoremap <C-s> :w<CR>
 " Map Ctrl+Q to quit
 nnoremap <C-q> :q<CR>
 
-" Map Tab and Shift-Tab to move content right or left
-nnoremap <Tab> >>
-nnoremap <S-Tab> <<
-vnoremap <Tab> >>
-vnoremap <S-Tab> <<
-
-" When moving down center the cursor on the screen
+" When moving up center the cursor on the screen
 nnoremap <c-u> <c-u>zz
+" When moving down center the cursor on the screen
+nnoremap <c-d> <c-d>zz
+
+" When jumping X lines up, center the cursor on the screen
+nnoremap k kzz
+" When jumping X lines down, center the cursor on the screen
+nnoremap j jzz
+
+" When jumping to next occurnce of word, center the cursor on the screen 
+nnoremap * *zz
+
 
 " Copy to system clipboard
 nnoremap <leader>y "+y
