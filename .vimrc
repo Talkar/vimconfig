@@ -57,12 +57,6 @@ nnoremap <c-a> ggvG
 " Replace word in file
 nnoremap <leader>s :%s/<C-r><C-w>/<C-r><C-w>/gI<left><left><left>
 
-" Visual studio
-" Run selected tests
-nnoremap <leader>rt :vsc TestExplorer.RunSelectedTests<CR>
-" Run all tests
-nnoremap <leader>ra :vsc TestExplorer.RunAllTests<CR>
-
 " Reload configuration
 nnoremap <leader>rc :so $HOMEPATH/.vimrc<enter>
 
