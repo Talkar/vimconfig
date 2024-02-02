@@ -42,6 +42,10 @@ nnoremap j jzz
 " When jumping to next occurnce of word, center the cursor on the screen 
 nnoremap * *zz
 
+" Move line up a and move cursor to original position
+nnoremap J mzJ`z
+" Reverjse J
+nnoremap <c-j> f,wi<enter><esc>
 
 " Copy to system clipboard
 nnoremap <leader>y "+y
@@ -65,4 +69,3 @@ nnoremap <leader>ra :vsc TestExplorer.RunAllTests<CR>
 
 " Reload configuration
 nnoremap <leader>rc :so $HOMEPATH/.vimrc<enter>
-
