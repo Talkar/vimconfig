@@ -44,7 +44,7 @@ nnoremap * *zz
 
 " Move line up a and move cursor to original position
 nnoremap J mzJ`z
-" Reverjse J
+" Reverse J
 nnoremap <c-j> f,wi<enter><esc>
 
 " Copy to system clipboard
