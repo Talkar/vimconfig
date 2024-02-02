@@ -47,6 +47,12 @@ nnoremap J mzJ`z
 " Reverse J
 nnoremap <c-j> f,wi<enter><esc>
 
+" Ensure showing a method name when jumping up to its starting clause
+nnoremap % %<Up><Down>
+
+" Select entire contents of file
+nnoremap <c-a> ggvG
+
 " Copy to system clipboard
 nnoremap <leader>y "+y
 vnoremap <leader>y "+y
@@ -54,9 +60,6 @@ vnoremap <leader>y "+y
 " Paste from system clipboard
 nnoremap <leader>p "+p
 vnoremap <leader>p "+p
-
-" Select entire contents of file
-nnoremap <c-a> ggvG
 
 " Replace word in file
 nnoremap <leader>s :%s/<C-r><C-w>/<C-r><C-w>/gI<left><left><left>
